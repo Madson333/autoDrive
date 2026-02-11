@@ -7,6 +7,7 @@
     "csv-parse": "^6.1.0",
     "express": "^5.1.0",
     "multer": "^2.0.2",
+    "swagger-ui-express": "^5.0.1",
     "uuid": "^13.0.0"
   },
   "scripts": {
@@ -22,6 +23,7 @@
     "@types/express": "^5.0.5",
     "@types/multer": "^2.0.0",
     "@types/node": "^24.10.1",
+    "@types/swagger-ui-express": "^4.1.8",
     "@types/uuid": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",
