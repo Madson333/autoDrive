@@ -19,7 +19,8 @@
     "start": "node dist/server.js",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
-    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\"",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli -d src/database/index.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
